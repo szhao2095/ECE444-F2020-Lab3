@@ -1,1 +1,6 @@
-<h1>Hello World!</h1>
+{% extends "base.html" %}
+{% block title %}Index.html{% endblock %}
+{% block page_content %}<h1>Hello Sheng!</h1>
+<p>The local date and time is {{ moment(current_time).format('LLLL') }}.</p>
+<p>That was {{ moment(current_time).fromNow(refresh=True) }}</p>
+{% endblock %}
