@@ -27,4 +27,5 @@ focuses on storing the data efficiently and avoiding duplication.
 
 NoSQL databases are instead document-oriented and key-value databases which has an advantage in querying speed at the expense of 
 duplicate entries.
+
 https://www.xplenty.com/blog/the-sql-vs-nosql-difference/#:~:text=SQL%20databases%20are%20vertically%20scalable,data%20like%20documents%20or%20JSON.
