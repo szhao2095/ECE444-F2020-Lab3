@@ -1,3 +1,20 @@
+# ECE444-F2020-Lab4&5
+[dock]: images/Docker_VS_VM.png "Docker vs VM"
+
+
+# Activity 1
+This is a branch of ECE444-F2020-Lab3:lab4_Microservice_Experiment
+
+# Activity 2
+
+# Activity 3
+**Briefly summarize the differences between Docker and Virtual Machine.**
+![alt text][dock]
+Credit https://www.youtube.com/watch?v=TvnZTi_gaNc
+
+Docker and VMs are abstraction of different levels. Virtual machines isolates systems by giving each running OS/image it's own hardware resources such as CPU and memory. Docker allows it's own images to run on the same OS thus essentially only isolating the applications. Docker is more efficient with resources since it does not have to allocate resources that may otherwise be under utilized.
+
+
 # ECE444-F2020-Lab3
 Flask - "Simple web form"
 
@@ -29,3 +46,5 @@ NoSQL databases are instead document-oriented and key-value databases which has 
 duplicate entries.
 
 https://www.xplenty.com/blog/the-sql-vs-nosql-difference/#:~:text=SQL%20databases%20are%20vertically%20scalable,data%20like%20documents%20or%20JSON.
+
+
