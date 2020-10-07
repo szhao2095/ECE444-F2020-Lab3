@@ -1,1 +1,6 @@
 flask==1.1.1
+flask_bootstrap
+flask_moment
+flask_wtf
+wtforms
+email_validator

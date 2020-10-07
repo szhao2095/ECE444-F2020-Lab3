@@ -1,11 +1,36 @@
 # ECE444-F2020-Lab4&5
 [dock]: images/Docker_VS_VM.png "Docker vs VM"
+[dock1]: images/dockerstep1.png "Folder screenshot"
+[dock2]: images/dockerstep2.png "Docker build command"
+[dock3]: images/dockerstep3.png "Docker run command and container instance"
+[dock4]: images/dockerstep4.png "Chrome screenshot"
+[dock5]: images/dockerstep5.png "Docker image id"
+[dock6]: images/dockerstep6.png "Docker desktop screenshot"
 
 
 # Activity 1
 This is a branch of ECE444-F2020-Lab3:lab4_Microservice_Experiment
 
 # Activity 2
+To create a docker image of this repo, first clone it into your local file directory and navigate to it.
+![alt text][dock1]
+
+Build the docker image with the following command (all relevant docker commands can be found in docker_commands.txt)
+docker build -t ece444-f2020-lab3 .
+![alt text][dock2]
+
+Start the docker image with the following command,
+docker run -d -p 5000:5000 ece444-f2020-lab3
+![alt text][dock3]
+You can verify that it is up by typing docker container ls -a and verifying that the STATUS shows Up X minutes.
+
+Screenshot of the working site at localhost:5000
+![alt text][dock4]
+
+More verification of the image and running container instance
+![alt text][dock5]
+![alt text][dock6]
+
 
 # Activity 3
 **Briefly summarize the differences between Docker and Virtual Machine.**
